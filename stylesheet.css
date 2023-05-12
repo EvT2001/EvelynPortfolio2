@@ -1,0 +1,100 @@
+body {
+    background-color: #45666B;
+    font-family:"Oregano", serif;
+}
+h1 {
+    font-size: 80px;
+}
+
+/* TOP {NAV BAR START */
+#navbar img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* TOP NAV BAR END */
+
+
+/* IMAGE CONTAINER START */
+
+.image-container1 {
+    background-image: url("terra.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.image-container2{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* IMAGE CONTAINER START */
+
+
+/* FONT START */
+h1 {
+    font-family: "Lilly", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 171px;
+}
+
+h2 {
+    font-family: "Lilly", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+}
+
+/* FONT END */
+
+
+
+/* COLOR START */
+#G150p {
+    color: #0F4A06;
+}
+
+
+/* COLOR END */
+
+
+/* DIV BOX Color Start */
+#BoxCategory_1{
+    background-color: #7D3127;
+}
+
+#BoxCategory_2 {
+    background-color: #330000;
+}
+
+#BoxCategory_3 {
+    background-color: #001E36;
+}
+
+#BoxCategory_4 {
+    background-color: #C8A882;
+}
+
+#BoxCategory_5 {
+    background-color: #FF9A00;
+}
+
+#BoxCategory_6 {
+    background-color: #31A8FF;
+}
+
+/* DIV BOX Color End */
+
+/* BUTTONS START */

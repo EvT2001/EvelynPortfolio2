@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact_styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.stickyEvelynNavBar {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+
+            .card {
+                width: 80px;
+                height: 80px;
+                margin-left: 50px;
+                margin-right: 50px;
+                position: relative;
+                display: inline-block;
+            }
+
+            .card .img-top {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0px;
+                z-index: 99;
+            }
+
+            .card:hover .img-top {
+                display: inline;
+            }
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+body {
+    background-color: #45666B;
+    font-family: "Saklifie", serif;
+}
+
+h1 {
+    margin-top: 200px;
+    font-size: 100px;
+}
+
+</style>
+</head>
+
+<body>
+            <!-- TOP NAV START -->
+
+            <div style="width: 98%; height: 80px; display: flex; align-items: left; background-color: #0F4A06;" id=""
+            class="stickyEvelynNavBar">
+
+            <!-- TOP NAV Box 1 START -->
+            <div style="width: 20%;height: 80px; " id="">
+                <a href="EvelynPortfolio2.html">
+                    <img src="logo.png" alt="logo" style="width:80px; height: 80px;">
+                    
+                </a>
+
+                
+            </div>
+            <!-- TOP NAV Box 1 END -->
+
+            <!-- TOP NAV Box 2 START -->
+            <div style="width: 50%;height: 80px;margin-left: 20px; " id=""></div>
+            <!-- TOP NAV Box 2 END -->
+
+            <!-- TOP NAV Box 3 START -->
+            <div class="card" id="">
+                <a href="EvelynPortfolio2.html">
+                    <img src="works.png" alt="Works" style="width:80px; height: 80px;">
+                    <img src="highlightedwork.jpeg" class="img-top" alt="highlightedwork" style="width:80px; height: 80px;">
+                </a>
+            </div>
+            
+       
+
+            <!-- TOP NAV Box 4 START -->
+            <div 
+            class="card" id="">
+                <img src="about.png" alt="About" style="width:80px; height: 80px;">
+                <a href="about.html">
+                    <img src="highlightedabout.jpeg" class="img-top" alt="highlightedwork" style="width:80px; height: 80px;">
+                </a>
+            </div>
+            <!-- TOP NAV Box 4 END -->
+
+            <!-- TOP NAV Box 5 START -->
+            <div class="card" id="">
+                <img src="contact.png" alt="Contact" style="width:80px; height: 80px;">
+                <a href="Contact.html">
+                    <img src="highlightedcontact.jpeg" class="img-top" alt="highlightedwork" style="width:80px; height: 80px;">
+                </a>
+            </div>
+            <!-- TOP NAV Box 5 END -->
+
+
+
+        </div>
+        <!-- TOP NAV END -->
+
+    <h1><center>Ways to Contact Me!</center></h1>
+
+    <div>
+        <center><img src="phone.png" style="width: 80%; height: 80%;"></center>
+        <a href="https://www.instagram.com/evelyntham/">
+            <img src="insta.png" style="margin-top: -640px; position: absolute; margin-left: 770px; width: 80px; height: 80px;">
+        </a>
+        <a href="https://www.behance.net/evelyntham">
+            <img src="behance.png" style="margin-top: -528px; position: absolute; margin-left: 626px; width: 80px; height: 80px;">
+        </a>
+        <a href="https://www.facebook.com/evelyn.tham.167">
+            <img src="fb.png" style="margin-top: -528px; position: absolute; margin-left: 905px; width: 80px; height: 80px;">
+        </a>
+        <a href="mailto: evelyn11@gmail.com">
+            <img src="gmail.png" style="margin-top: -390px; position: absolute; margin-left: 770px; width: 80px; height: 80px;">
+        </a>
+    </div>
+
+</body>
+
+</html>

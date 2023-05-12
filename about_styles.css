@@ -1,0 +1,21 @@
+body {
+    background-color: #45666B;
+    font-family: "Saklifie", serif;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+.img {
+    margin-left: 100px;
+    display: flex;
+    font-size: 45px;
+}
+
